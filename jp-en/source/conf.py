@@ -19,7 +19,7 @@ source_suffix = {
 
 # Setup the breathe extension
 breathe_projects = {
-    "Docs": "./_xml"
+    "Docs": "./xml"
 }
 
 breathe_default_project = "Docs"
