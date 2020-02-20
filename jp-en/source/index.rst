@@ -1,37 +1,92 @@
-.. qulacs-doc documentation master file, created by
-   sphinx-quickstart on Fri Jan 31 14:00:44 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Temp Project
+=======================================
 
-Qulacs Documentation
-======================================
+.. meta::
+   :description lang=en: description
 
+Summary of the project
 
-Qulacs is a fast quantum circuit simulator for simulating large, noisy, or parametric quantum circuits.
-Qulacs is a open source software under the MIT license.
-`Github repository
-<https://github.com/qulacs/qulacs>`_.
+Paragraph 1
+    Sub Paragraph
 
 
-Table of Contents
------------------
+
+
+
+Intro
+-----------
+
+Are you new to {$project}?
+
+* **Install**:
+  :doc:`Install <intro/install>`
+
+* **First_example**:
+  :doc:`Example <intro/first_example>`
+
 
 .. toctree::
-   :maxdepth:1
-   intro/About_Qulacs
-   intro/HowToInstall
-   intro/Tutorial_CPP
-   intro/Tutorial_python_first
-   intro/Tutorial_python_advance
-   intro/TroubleShooting
-   api/library_root
+   :maxdepth: 2
+   :hidden:
+   :caption: First steps
+
+   intro/install
+   intro/first_example
+
+Getting statred with *****
+-----------------------------------
+
+Brief description of how to get start with getting started
+
+* **Overview**:
+  Link 1
+
+* **Details**:
+   Link 2
+
+* **FAQ**
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Getting started
+   
+   basic/tutorial
+   basic/faq
 
 
+Advanced features of Read the Docs
+----------------------------------
 
-Indices and tables
-==================
+Brief description of the Advanced feature
+
+* **Feature 1**:
+  Link
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :glob:
+   :caption: Advanced features
+   
+   guide/guide1
+   api/cpp_library_root
 
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+How to contribute to this document
+----------------------------------
+
+Brief description 
+
+* **Feature 1**:
+  Link
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   :caption: How to write this doc
+   
+   write/readme
+
+

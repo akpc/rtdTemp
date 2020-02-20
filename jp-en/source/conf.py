@@ -1,6 +1,6 @@
 import textwrap
 
-project = "Qulacs"
+project = "C++/Python Project"
 
 # The `extensions` list should already be in here from `sphinx-quickstart`
 extensions = [
@@ -19,16 +19,16 @@ source_suffix = {
 
 # Setup the breathe extension
 breathe_projects = {
-    "Qulacs Docs": "./xml"
+    "Docs": "./xml"
 }
 
-breathe_default_project = "Qulacs Docs"
+breathe_default_project = "Docs"
 
 # Setup the exhale extension
 exhale_args = {
     # These arguments are required
     "containmentFolder":     "./api",
-    "rootFileName":          "library_root.rst",
+    "rootFileName":          "cpp_library_root.rst",
     "rootFileTitle":         "Library API",
     "doxygenStripFromPath":  "..",
     # Suggested optional arguments
@@ -36,8 +36,9 @@ exhale_args = {
     # TIP: if using the sphinx-bootstrap-theme, you need
     "treeViewIsBootstrap": True,
      "exhaleExecutesDoxygen": True,
-     "exhaleDoxygenStdin":    "INPUT = ../qulacs-src-min \
-          \nOUTPUT_LANGUAGE = Japanese-en"
+     "exhaleDoxygenStdin": \
+        "INPUT = ../../qulacs-src-min \n \
+        OUTPUT_LANGUAGE = Japanese-en"
 
 }
 
