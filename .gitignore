@@ -134,6 +134,7 @@ dmypy.json
 
 # build files
 
-*/build/
-*/xml/
+**/build/
+**/xml/
+
 
