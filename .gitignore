@@ -134,7 +134,8 @@ dmypy.json
 
 # build files
 
-**/build/
-**/xml/
+**/_build/
+**/_xml/
 
 
+**/.DS_Store

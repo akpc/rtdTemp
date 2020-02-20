@@ -31,7 +31,7 @@ Definition (``/Users/akpc/work/2020Q1/rtdTemp/qulacs-src-min/cppsim/class1.hpp``
 Detailed Description
 --------------------
 
-Description of this file regardless of language. 日本語.ß 
+Description of this file regardless of language. 日本語. 
 
 
 
